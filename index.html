@@ -58,7 +58,8 @@
         </div>
     </section>
 </header>
-
+<a class="btn btn-primary" href="" role="button">Link</a>
+>
 <!-- main content -->
 <main>
     <!-- About section links to #about href in navbar -->
@@ -162,12 +163,51 @@
 Got questions or ideas? I'd love to hear from you! Whether you're interested in collaboration, have inquiries about my projects, or wish to request a copy of my CV, please don't hesitate to get in touch. I'm always open to discussing new opportunities and how we can work together to create something amazing!</p>
 
     </div>
-    <div class="col-12 col-md-10 col-lg-8">
+    <div class="col-12 col-md-10 col-lg-8 mb-4">
       <!-- form-->
-       
+    <div class="mb-4">
+    <form class="row g-3">
+         <div class="col-lg-4">
+    <label for="fullname" class="form-label">Full Name</label>
+    <input type="text" class="form-control" id="fullname">
+  </div>
+      <div class="col-lg-4">
+    <label for="phone" class="form-label">Phone Number</label>
+    <input type="number" class="form-control" id="phone">
+  </div>
+  <div class="col-lg-4">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="mb-3">
+  <label for="message1" class="form-label">Message</label>
+  <textarea class="form-control" id="message" rows="3"></textarea>
+</div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Send</button>
+  </div>
+</form>
+</div>   
     </div>
   </div>
 </footer>
+<div class="modal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Subscribe</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Join my newsletter for the latest updates on my projects, coding tips,</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
