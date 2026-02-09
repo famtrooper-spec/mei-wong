@@ -22,6 +22,16 @@ h2 { font-family: "DM Serif Display", serif;
     border-radius: 0;
 } 
 
+/*buttons*/
+.custom-button { 
+    background-color:#1f7798   ; /* mid-blue */
+    border:#1f7798; /* mid-blue */
+}
+.custom-button:hover { 
+    background-color:#1d6d8a   ; /* slightly darker mid-blue */
+    border:#1d6d8a; /* slightly darker mid-blue */
+}
+
 /*about section*/
 
 #about { background-color: white;
@@ -42,11 +52,18 @@ h2 { font-family: "DM Serif Display", serif;
 }
 
 
+
 /*contact section*/
 
 #contact { background-color: white;
+         
     
 }
+.form-label {
+    color:#1f7798; /* mid-blue */
+}
+
+/*hero section*/
 #hero { background-color: #dbdcde; /* light grey */
         background-image: url("../images/background.webp");
         background-size: cover;
@@ -65,3 +82,4 @@ h2 { font-family: "DM Serif Display", serif;
     #portfolio .card-text {
         min-height: auto;
     }
+}
