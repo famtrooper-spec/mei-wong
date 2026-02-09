@@ -18,6 +18,9 @@ h1,
 h2 { font-family: "DM Serif Display", serif;
     color: #184f63; /* dark-blue */
 }
+.sharp-corners, .sharp-corners * {
+    border-radius: 0;
+} 
 
 /*about section*/
 
@@ -37,6 +40,8 @@ h2 { font-family: "DM Serif Display", serif;
 #portfolio .card-text {
     min-height: 120px;
 }
+
+
 /*contact section*/
 
 #contact { background-color: white;
